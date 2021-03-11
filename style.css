@@ -42,5 +42,18 @@ hr {
     top: 80.68px;
 
     border: 2px solid #828282;
-    transform: rotate(-0.25deg);
+}
+
+.input {
+    display: block;
+    background: #333333;
+    font-family: 'Roboto', sans-serif;
+    color: #E0E0E0;
+    border: none;
+    resize: none;
+    width: 860px;
+    height: 107px;
+    margin: auto;
+    margin-top: 15.32px;
+    outline: none;
 }
