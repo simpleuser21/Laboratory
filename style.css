@@ -44,13 +44,11 @@ hr {
     border: 2px solid #828282;
 }
 
-.input {
+.editable {
     display: block;
     background: #333333;
     font-family: 'Roboto', sans-serif;
     color: #E0E0E0;
-    border: none;
-    resize: none;
     width: 860px;
     height: 107px;
     margin: auto;
