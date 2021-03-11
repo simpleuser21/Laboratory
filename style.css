@@ -1,0 +1,46 @@
+body { 
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background: #E5E5E5;
+}
+
+.container {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 960px;
+    background: #292929;
+}
+
+.header {
+    display: flex;
+    justify-content: start;
+}
+
+.app-name {
+    font-size: 36px;
+    color: #E0E0E0;
+    font-weight: 300;
+    padding: 35px 0 0 50px;
+}
+
+.add {
+    width: 27.59px;
+    height: 27.59px;
+    padding: 40px 0 0 615px;
+}
+
+.trash {
+    width: 29px;
+    height: 28px;
+    padding: 40px 0 0 21.41px;
+}
+hr {
+    margin: 0 auto;
+    width: 860px;
+    height: 0px;
+    left: 50px;
+    top: 80.68px;
+
+    border: 2px solid #828282;
+    transform: rotate(-0.25deg);
+}
