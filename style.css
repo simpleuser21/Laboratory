@@ -57,3 +57,17 @@ hr {
     margin-top: 15.32px;
     outline: none;
 }
+
+.notes {
+    display: block;
+    margin: auto;
+    margin-top: 15px;
+    width: 860px;
+    height: 266px;
+}
+
+.next{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 438px 28px 438px;
+}
