@@ -23,15 +23,15 @@ body {
 }
 
 .add {
-    width: 27.59px;
-    height: 27.59px;
-    padding: 40px 0 0 615px;
+    width: 28px;
+    height: 28px;
+    margin: 0 auto;
 }
 
 .trash {
-    width: 29px;
+    width: 28px;
     height: 28px;
-    padding: 40px 0 0 21.41px;
+    margin: 0 auto;
 }
 hr {
     margin: 0 auto;
@@ -40,7 +40,7 @@ hr {
     left: 50px;
     top: 80.68px;
 
-    border: 2px solid #828282;
+    border: 1px solid #828282;
 }
 
 .editable {
@@ -51,13 +51,15 @@ hr {
     width: 89.583%;
     height: 107px;
     margin: auto;
-    margin-top: 15.32px;
+    margin-top: 21px;
+    margin-bottom: 21px;
     outline: none;
 }
 
 .notes {
-    display: block;
-    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
     margin-top: 15px;
     width: 89.583%;
     height: 266px;
@@ -74,10 +76,57 @@ hr {
     opacity: 0.5;
 }
 
+.note {
+    background: #292929;
+    color: #E0E0E0;
+    width: 272.52px;
+    height: 302px;
+    overflow-y: auto;
+}
+
+#paragraph {
+    word-break: break-all;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    padding: 0px 16px;
+    text-align: justify;
+  }
+
+.note::-webkit-scrollbar {
+    width: 5px;
+    background-color: #292929;
+  }
+  
+.note::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    background-color: #5c5c5c;
+  }
+  
+.note::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.2);
+    border-radius: 5px;
+    background-color: #414141;
+  }
+
+#indent {
+    background: #292929;
+    width: 960px;
+    height: 69px;
+}
+
 button {
+    height: 32px;
+    padding: 0px;
+    margin-top: 40px;
+    margin-left: 21px;
+
     background-color: Transparent;
     background-repeat:no-repeat;
     border: none;
     cursor:pointer;
     outline:none;
+}
+
+.button_add {
+    margin-left: 609px;
 }
